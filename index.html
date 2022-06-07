@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Of Legends Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+      background-image: url('./image/main.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      font-family: 'Nanum Myeongjo', serif;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #3f3f3f;
+      background-color: #110e0e;
+      top:0px;
+    }       
+    li {
+      float: left;
+    }     
+    li a {
+      display: block;
+      color: rgb(104, 104, 104);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }     
+    li a:hover:not(.active) {
+      background-color: #ddd;
+    }     
+    li a.active {
+      color: white;
+      background-color: #363636;
+    }
+    .dropdown-content {
+      display: none; 
+      position: absolute; 
+      background-color: #110e0e;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1; 
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block; 
+      text-align: center;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .s1 { 
+      text-shadow: 4px 2px 6px gray; 
+    }
+    .s2 { 
+      text-shadow: 4px 2px 6px rgb(230, 218, 218); 
+    }
+    </style>
+<body>
+    <ul>
+        <li><a class="active" href="#home"style="font-size:150% ; color:rgb(202, 162, 29)">메인</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" style="font-size:150% ; color:rgb(202, 162, 29)">게임 소개</a>
+          <div class="dropdown-content" >
+            <a href="./html/int/goal.html"style= "font-size:120%; color:rgb(202, 162, 29)">게임 목표</a>
+            <a href="./html/int/line.html"style= "font-size:120%;color:rgb(202, 162, 29)">라인 역할군</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" style="font-size:150% ; color:rgb(202, 162, 29)">게임 정보</a>
+          <div class="dropdown-content" >
+            <a href="./html/inf/ui.html"style= "font-size:120%; color:rgb(202, 162, 29)">UI</a>
+            <a href="./html/inf/ctrl.html"style= "font-size:120%;color:rgb(202, 162, 29)">게임 조작법</a>
+            <a href="./html/inf/sp.html"style= "font-size:120%;color:rgb(202, 162, 29)">스마트 핑</a>
+          </div>
+        </li>
+  
+        <li><a href="./html/site/site.html"style="font-size:150% ;color:rgb(202, 162, 29)">분석 사이트</a></li>
+        <li style="float:right"><img src = "image/icon1.jpg" width="50" height="50"></a></li>
+      </ul>
+      <br><br><br><br>
+      <h1 class="s1" style = "font-size:50px; color : rgb(216, 216, 216); text-align : center">리그 오브 레전드 가이드</h1> 
+      <br><br><br><br><br><br>
+      <p class = "s2" style = "font-size:30px; color : rgb(212, 195, 40); text-align : center">리그 오브 레전드를 처음 플레이하시는 경우 어려움을 느낄 수 있습니다!<br>
+        특히 리그 오브 레전드를 완전히 처음 플레이 하시는 경우, 이 가이드를 먼저 보신 후 시작하세요!<br>
+        가이드를 다 보신 후에는 본 가이드에 있는 역할군과 챔피언, 주요 목표물에 관한 정보를 통해 게임에 숙련도를 높여보세요!!<br></p>
+
+</body>
+</html>
